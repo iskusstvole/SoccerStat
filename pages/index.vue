@@ -1,7 +1,9 @@
 <template>
-  <v-row justify="center" align="center">
-    <p>это index</p>
-    <!-- <v-col cols="12" sm="8" md="6">
+  <Competition/>
+  <!-- <v-row justify="center" align="center">
+    
+
+    <v-col cols="12" sm="8" md="6">
       <v-card class="logo py-4 d-flex justify-center">
         <NuxtLogo />
         <VuetifyLogo />
@@ -78,13 +80,19 @@
           <v-btn color="primary" nuxt to="/Teams"> страница </v-btn>
         </v-card-actions>
       </v-card>
-    </v-col> -->
-  </v-row>
+    </v-col>
+  </v-row> -->
   
 </template>
 
 <script>
+import Competition from './Competition.vue';
+
 export default {
   name: 'IndexPage',
+  components: {
+    Competition
+  },
 }
+
 </script>
